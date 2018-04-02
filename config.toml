@@ -3,6 +3,7 @@ languageCode = "ko-kr"
 title = "llighter's blog"
 theme = "temple"
 copyright = "(c) 2018 - 2018"
+publishDir = "docs"
 
 [params]
   # Enables syntax highlighting
@@ -16,7 +17,6 @@ copyright = "(c) 2018 - 2018"
 
   # Enables the topmenu, which pulls from categories
   topmenu = "categories"
-
 # Builds a list page for each category given
 [taxonomies]
   tag = "tags"
@@ -29,3 +29,6 @@ copyright = "(c) 2018 - 2018"
   gaid = "Your Google Analytics ID"
   twitter = "llighter90"
   medium = "llighter"
+
+[permalinks]
+  posts = "/:year/:month/:slug/"
