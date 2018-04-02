@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>llighter&#39;s blog</title>
+    <link>http://example.org/</link>
+    <description>Recent content on llighter&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <managingEditor>hadbsgk@gmail.com (PARK YUNHA)</managingEditor>
+    <webMaster>hadbsgk@gmail.com (PARK YUNHA)</webMaster>
+    <copyright>(c) 2018 - 2018</copyright>
+    <lastBuildDate>Mon, 02 Apr 2018 22:26:02 +0900</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 02 Apr 2018 22:26:02 +0900</pubDate>
+      <author>hadbsgk@gmail.com (PARK YUNHA)</author>
+      <guid>http://example.org/about/</guid>
+      <description>I&amp;rsquo;m Yunha Park a.k.a llighter, a Developer. I am interested in Web development and Machine Learning these days. Especially Angular is my favorite framework. I am planning to post about my interest. If you want to contact me, Please contact me at hadbsgk@gmail.com
+You can find the my Medium Blog at medium</description>
+    </item>
+    
+    <item>
+      <title>SQL REFERENCE 및 교육자료</title>
+      <link>http://example.org/posts/sql_reference/</link>
+      <pubDate>Thu, 23 Mar 2017 10:50:00 +0900</pubDate>
+      <author>hadbsgk@gmail.com (PARK YUNHA)</author>
+      <guid>http://example.org/posts/sql_reference/</guid>
+      <description> EDX.org
+ W3School 에서는 기본적인 SQL문에 대한 설명과 실습이 가능하다. W3School SQL Tutorial
+ 오라클에서 운영하는 공식 sql 페이지 이다. 여기서는 주제에 대한 다양한 예제를 볼 수 있다. ORACLE Live SQL
+ Oracle SQL and PL/SQL Optimization for Developers 는 레퍼런스 북으로 이론 및 다양 한 예제를 확인 할 수 있다. Oracle SQL and PL/SQL Optimization for Developers
+  </description>
+    </item>
+    
+    <item>
+      <title>팍스디지타 문화</title>
+      <link>http://example.org/posts/joel-on-the-software/</link>
+      <pubDate>Wed, 15 Mar 2017 22:29:25 +0900</pubDate>
+      <author>hadbsgk@gmail.com (PARK YUNHA)</author>
+      <guid>http://example.org/posts/joel-on-the-software/</guid>
+      <description>모든 사람들은 자기 영역을 가지고 자기가 알아서 일합니다. 관리자가, 아니 누구라도 특정 분야가 돌아가는 방식이 맘에 들지 않아 바꾸고 싶다면 해당 분야 담당자를 먼저 설득해야 합니다. 최종 결정은 항상 담당자가 내립니다.
+ 특정 사안에 대해 가장 정보를 많이 가진 자가 결정을 내립니다.
+ 관리자는 개발자와 동등합니다. 제대로 일하는 관리자라면 부하직원들 일에 끼어들 시간이 없어야 합니다. 170명에 달하는 종업원이 중간 관리자 없이 공장장에게 직접 보고하는 노스캐롤라이나 GE공장을 본받아야 합니다.
+  결국 가장 중요한것은 스스로 일해야한다는 것입니다.</description>
+    </item>
+    
+  </channel>
+</rss>
