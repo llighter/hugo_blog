@@ -1,4 +1,4 @@
-baseURL = "http://llighter.github.io/hugo_blog"
+baseURL = "https://llighter.github.io/hugo_blog"
 languageCode = "ko-kr"
 title = "llighter's blog"
 theme = "temple"
