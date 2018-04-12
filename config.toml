@@ -2,7 +2,7 @@ baseURL = "https://llighter.github.io/hugo_blog"
 languageCode = "ko-kr"
 title = "llighter's blog"
 theme = "temple"
-copyright = "(c) 2018 - 2018"
+copyright = "(c) 2017 - 2018"
 publishDir = "docs"
 
 [params]
