@@ -9,10 +9,20 @@
     <managingEditor>hadbsgk@gmail.com (PARK YUNHA)</managingEditor>
     <webMaster>hadbsgk@gmail.com (PARK YUNHA)</webMaster>
     <copyright>(c) 2017 - 2018</copyright>
-    <lastBuildDate>Thu, 23 Mar 2017 10:50:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 27 Mar 2018 15:03:09 +0900</lastBuildDate>
     
 	<atom:link href="https://llighter.github.io/hugo_blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Query_processing_order</title>
+      <link>https://llighter.github.io/hugo_blog/2018/03/query_processing_order/</link>
+      <pubDate>Tue, 27 Mar 2018 15:03:09 +0900</pubDate>
+      <author>hadbsgk@gmail.com (PARK YUNHA)</author>
+      <guid>https://llighter.github.io/hugo_blog/2018/03/query_processing_order/</guid>
+      <description>이 포스트에서 작성된 글은 Oracle SQL &amp;amp; PL/SQL Optimization for Developers 의 문서의 내용을 참고한 것입니다.  쿼리의 실행 계획(execution plan)을 이야기하기전에 이해해야할 것은 어떻게 오라클이 논리적으로 쿼리를 처리 하는가이다. 아래의 쿼리를 통해 쿼리가 어떻게 논리적으로 동작하는지 살펴보겠다.
+SELECT f.product AS beer , p.product AS crisps FROM fridge fs CROSS JOIN pantry p WHERE f.product = &amp;#39;Beer&amp;#39; AND f.temperature &amp;lt; 5 AND f.size = &amp;#39;50 fl oz&amp;#39; AND p.product = &amp;#39;Crisps&amp;#39; AND p.</description>
+    </item>
     
     <item>
       <title>SQL REFERENCE 및 교육자료</title>

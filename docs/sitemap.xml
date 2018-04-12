@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://llighter.github.io/hugo_blog/2018/03/query_processing_order/</loc>
+    <lastmod>2018-03-27T15:03:09+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://llighter.github.io/hugo_blog/2017/03/sql-reference-%EB%B0%8F-%EA%B5%90%EC%9C%A1%EC%9E%90%EB%A3%8C/</loc>
     <lastmod>2017-03-23T10:50:00+09:00</lastmod>
   </url>
@@ -24,7 +29,7 @@
   
   <url>
     <loc>https://llighter.github.io/hugo_blog/posts/</loc>
-    <lastmod>2017-03-23T10:50:00+09:00</lastmod>
+    <lastmod>2018-03-27T15:03:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   
