@@ -9,10 +9,32 @@
     <managingEditor>hadbsgk@gmail.com (PARK YUNHA)</managingEditor>
     <webMaster>hadbsgk@gmail.com (PARK YUNHA)</webMaster>
     <copyright>(c) 2017 - 2018</copyright>
-    <lastBuildDate>Mon, 27 Mar 2017 15:03:09 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 05 Apr 2017 19:17:38 +0900</lastBuildDate>
     
 	<atom:link href="https://llighter.github.io/hugo_blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Volunteer in Mozilla Korea Community 번역으로 시작하기</title>
+      <link>https://llighter.github.io/hugo_blog/2017/04/volunteer-in-mozilla-korea-community-%EB%B2%88%EC%97%AD%EC%9C%BC%EB%A1%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Wed, 05 Apr 2017 19:17:38 +0900</pubDate>
+      <author>hadbsgk@gmail.com (PARK YUNHA)</author>
+      <guid>https://llighter.github.io/hugo_blog/2017/04/volunteer-in-mozilla-korea-community-%EB%B2%88%EC%97%AD%EC%9C%BC%EB%A1%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</guid>
+      <description>RandomSource.getRandomValues() 이 링크는 내가 처음으로 기술 문서를 번역한 페이지이다. 사실 기존에 기술문서를 볼 때 영어 공부하는 심정으로 인내심을 가지고 보고는 했다. 하지만 가끔 가다 한국어로 번역이 되어 있는 문서를 볼 때면 조금 더 빠르고 수월하게 문서의 내용을 이해할 수 있었다. 그러다 마침 javascript의 Math.random() 함수에 대해 알아보고 있던 중에 javascript 에서는 random()함수는 seed를 줄 수 없다는 사실을 알았고 암호학적으로 강력한 수준의 ramdom값을 생성하는 메소드가 있는지 찾아보던 중에 RandomSource.getRandomValues()을 알게 되었다. 많이 사용하는 Math.</description>
+    </item>
+    
+    <item>
+      <title>Javascript: 함수 정의하기</title>
+      <link>https://llighter.github.io/hugo_blog/2017/04/javascript-%ED%95%A8%EC%88%98-%EC%A0%95%EC%9D%98%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Tue, 04 Apr 2017 19:00:32 +0900</pubDate>
+      <author>hadbsgk@gmail.com (PARK YUNHA)</author>
+      <guid>https://llighter.github.io/hugo_blog/2017/04/javascript-%ED%95%A8%EC%88%98-%EC%A0%95%EC%9D%98%ED%95%98%EA%B8%B0/</guid>
+      <description>jQuery(javascript)에서는 함수를 사용하는 방법이 크게 두가지가 있다. 아래의 내용은 MDN-Defining functions의 내용을 참고한 것이다.
+1. The function declaration(function statement) function name([param[, param[, ... param]]]) { statements }  name - 함수의 이름.
+param - 함수에 전달될 인자의 이름. 최대 255개 까지 가질 수 있다.
+statements - 함수 안에 들어갈 내용들.
+2. Function expression(function expression) function [name]([param[, param[, ... param]]]) { statements }  name - 함수의 이름이다. 익명함수로 선언된다면 생략할 수 있다.</description>
+    </item>
     
     <item>
       <title>QUERY PROCESSING ORDER 쿼리 처리 순서</title>
