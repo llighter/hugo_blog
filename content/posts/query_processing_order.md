@@ -1,6 +1,6 @@
 ---
-title: "Query_processing_order"
-date: 2018-03-27T15:03:09+09:00
+title: "QUERY PROCESSING ORDER 쿼리 처리 순서"
+date: 2017-03-27T15:03:09+09:00
 draft: false
 ---
 
@@ -39,8 +39,7 @@ ORDER BY
 물론 위의 순서가 모든 구절을 포함하는 것은 아니다.
 
 아래 사진은 옵션을 포함한 오라클의 쿼리 프로세싱 순서이다.
-![QUERY-PROCESS-ORDER](/images/google.jpg)
-{{< figure src="/static/query-proc-order.png" title="query proc order" >}}
+{{< figure src="/hugo_blog/images/query-proc-order.png" >}}
 
 이러한 처리 순서때문에 예상치 못한 에러가 발생하기도 한다.
 {{< highlight sql >}}
