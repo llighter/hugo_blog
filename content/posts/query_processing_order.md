@@ -1,7 +1,7 @@
 ---
 title: "Query_processing_order"
 date: 2018-03-27T15:03:09+09:00
-draft: true
+draft: fales
 ---
 
 - 이 포스트에서 작성된 글은 [Oracle SQL & PL/SQL Optimization for Developers][Oracle SQL & PL/SQL Optimization for Developers] 의 문서의 내용을 참고한 것입니다. 
