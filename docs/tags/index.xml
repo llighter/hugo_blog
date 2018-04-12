@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on llighter&#39;s blog</title>
-    <link>http://example.org/tags/</link>
+    <link>https://llighter.github.io/hugo_blog/tags/</link>
     <description>Recent content in Tags on llighter&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <managingEditor>hadbsgk@gmail.com (PARK YUNHA)</managingEditor>
     <webMaster>hadbsgk@gmail.com (PARK YUNHA)</webMaster>
-    <copyright>(c) 2018 - 2018</copyright>
+    <copyright>(c) 2017 - 2018</copyright>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://llighter.github.io/hugo_blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
