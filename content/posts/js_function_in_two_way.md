@@ -4,7 +4,8 @@ date: 2017-04-04T19:00:32+09:00
 draft: false
 ---
 
-# jQuery(javascript)에서는 함수를 사용하는 방법이 크게 두가지가 있다.
+# jQuery(javascript)에서는 함수를 사용하는 방법이 크게 두가지가 있다
+
 아래의 내용은 [MDN-Defining functions][Defining functions]의 내용을 참고한 것이다.
 
 ## 1. The function declaration(function statement)
@@ -15,31 +16,39 @@ function name([param[, param[, ... param]]]) {
 }
 {{< / highlight >}}
 
-**name**
-- 함수의 이름.
+- **name**
 
-**param**
-- 함수에 전달될 인자의 이름. 최대 255개 까지 가질 수 있다.
+> 함수의 이름.
 
-**statements**
-- 함수 안에 들어갈 내용들.
+- **param**
+
+> 함수에 전달될 인자의 이름. 최대 255개 까지 가질 수 있다.
+
+- **statements**
+
+> 함수 안에 들어갈 내용들.
 
 ## 2. Function expression(function expression)
+
 {{< highlight javascript >}}
 function [name]([param[, param[, ... param]]]) {
    statements
 }
 {{< / highlight >}}
-**name**
-- 함수의 이름이다. 익명함수로 선언된다면 생략할 수 있다.
 
-**param**
-- 함수에 전달될 인자의 이름. 최대 255개 까지 가질 수 있다.
+- **name**
 
-**statements**
-- 함수 안에 들어갈 내용들.
+> 함수의 이름. 익명함수로 선언된다면 생략할 수 있다.
 
-#### 2.1 anonymous function expression의 예 (name을 사용하지 않음):
+- **param**
+
+> 함수에 전달될 인자의 이름. 최대 255개 까지 가질 수 있다.
+
+- **statements**
+
+> 함수 안에 들어갈 내용들.
+
+### 2.1 anonymous function expression의 예 (name을 사용하지 않음):
 
 {{< highlight javascript >}}
 var myFunction = function() {
@@ -47,7 +56,7 @@ var myFunction = function() {
 }
 {{< /highlight >}}
 
-#### 2.2 named function expression의 예(name을 사용함):
+### 2.2 named function expression의 예(name을 사용함):
 
 {{< highlight javascript >}}
 var myFunction = function namedFunction(){
