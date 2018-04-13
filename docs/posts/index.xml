@@ -9,10 +9,33 @@
     <managingEditor>hadbsgk@gmail.com (PARK YUNHA)</managingEditor>
     <webMaster>hadbsgk@gmail.com (PARK YUNHA)</webMaster>
     <copyright>(c) 2017 - 2018</copyright>
-    <lastBuildDate>Wed, 05 Apr 2017 19:17:38 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 12 Apr 2017 16:03:53 +0900</lastBuildDate>
     
 	<atom:link href="https://llighter.github.io/hugo_blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Package.json에 depencency 추가하기</title>
+      <link>https://llighter.github.io/hugo_blog/2017/04/package.json%EC%97%90-depencency-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Wed, 12 Apr 2017 16:03:53 +0900</pubDate>
+      <author>hadbsgk@gmail.com (PARK YUNHA)</author>
+      <guid>https://llighter.github.io/hugo_blog/2017/04/package.json%EC%97%90-depencency-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</guid>
+      <description>Angular는 NPM을 통해 패키지를 관리한다. Angular 공부를 시작하면서 여러가지 툴들을 사용하게 되는데 이것도 npm은 외부 라이브러리를 사용하려면 필수적으로 알아야 하는 것 중 하나이다.
+이번에는 프로젝트 중간에 외부 라이브러리를 추가할 때 어떻게 하는지 알아보려 한다. 현재 내가 작성하고 있는 프로그램은 angular에서 제공하는 tutorial이다. 이 튜토리얼의 6단계에는 http를 사용하여 서버에서 가져온 데이터를 어떻게 관리하는지(CRUD)를 보여주는데 이때 서버를 설정하기 위해 InMemoryWebApiModule 라이브러리가 필요하다. 나는 튜토리얼에서 제공해주는 파일을 사용한 것이 아니라 angular-cli를 사용하여 프로그램을 재 작성하고 있었기 때문에 이 라이브러리가 없었다.</description>
+    </item>
+    
+    <item>
+      <title>QuerySelectorAll에서 For loop 사용하기</title>
+      <link>https://llighter.github.io/hugo_blog/2017/04/queryselectorall%EC%97%90%EC%84%9C-for-loop-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Mon, 10 Apr 2017 15:43:14 +0900</pubDate>
+      <author>hadbsgk@gmail.com (PARK YUNHA)</author>
+      <guid>https://llighter.github.io/hugo_blog/2017/04/queryselectorall%EC%97%90%EC%84%9C-for-loop-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</guid>
+      <description>QuerySelectorAll은 아래와 같이 selectors의 조건에 만족하는 모든 element들의 list를 반환한다. 이때 반환하는 list의 형식은 Nodelist이다. 이 형식을 기억해두자.
+elementList = document.querySelectorAll(selectors);  우리의 목적은 이렇게 반환된 elementList의 내용을 반목문을 통해 확인하는 것이다. 여기서는 3가지 방법의 for문을 살펴볼 것이다.
+우리가 다룰 elements 이다. &amp;lt;h1&amp;gt;Loop Test&amp;lt;/h1&amp;gt; &amp;lt;div class=&amp;#34;my-tag&amp;#34;&amp;gt;my tag01&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;my-tag&amp;#34;&amp;gt;my tag02&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;my-tag&amp;#34;&amp;gt;my tag03&amp;lt;/div&amp;gt;
+1) for (statement 1; statement 2; statement 3)
+for(var i = 0; i &amp;lt; myTagList.length; i++) { // my-tag 태그들의 글자 색을 하얀색으로 정한다.</description>
+    </item>
     
     <item>
       <title>Volunteer in Mozilla Korea Community 번역으로 시작하기</title>
@@ -29,11 +52,11 @@
       <pubDate>Tue, 04 Apr 2017 19:00:32 +0900</pubDate>
       <author>hadbsgk@gmail.com (PARK YUNHA)</author>
       <guid>https://llighter.github.io/hugo_blog/2017/04/javascript-%ED%95%A8%EC%88%98-%EC%A0%95%EC%9D%98%ED%95%98%EA%B8%B0/</guid>
-      <description>jQuery(javascript)에서는 함수를 사용하는 방법이 크게 두가지가 있다. 아래의 내용은 MDN-Defining functions의 내용을 참고한 것이다.
-1. The function declaration(function statement) function name([param[, param[, ... param]]]) { statements }  name - 함수의 이름.
-param - 함수에 전달될 인자의 이름. 최대 255개 까지 가질 수 있다.
-statements - 함수 안에 들어갈 내용들.
-2. Function expression(function expression) function [name]([param[, param[, ... param]]]) { statements }  name - 함수의 이름이다. 익명함수로 선언된다면 생략할 수 있다.</description>
+      <description>jQuery(javascript)에서는 함수를 사용하는 방법이 크게 두가지가 있다 아래의 내용은 MDN-Defining functions의 내용을 참고한 것이다.
+1. The function declaration(function statement) function name([param[, param[, ... param]]]) { statements }   name   함수의 이름.
+  param   함수에 전달될 인자의 이름. 최대 255개 까지 가질 수 있다.
+  statements   함수 안에 들어갈 내용들.
+ 2. Function expression(function expression) function [name]([param[, param[, ... param]]]) { statements }   name   함수의 이름.</description>
     </item>
     
     <item>
