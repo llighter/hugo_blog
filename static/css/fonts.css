@@ -55,6 +55,6 @@
 }
 
 /* TODO: line-height를 조절하고 싶다. */
-div.post {
+.post-content {
     line-height: 2.0;
 }
