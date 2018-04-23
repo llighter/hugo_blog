@@ -9,10 +9,20 @@
     <managingEditor>hadbsgk@gmail.com (PARK YUNHA)</managingEditor>
     <webMaster>hadbsgk@gmail.com (PARK YUNHA)</webMaster>
     <copyright>(c) 2017 - 2018</copyright>
-    <lastBuildDate>Tue, 17 Apr 2018 00:21:05 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 18 Apr 2018 04:11:22 +0900</lastBuildDate>
     
 	<atom:link href="https://llighter.github.io/hugo_blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Compute engine에 MariaDB 설치하기</title>
+      <link>https://llighter.github.io/hugo_blog/2018/04/compute-engine%EC%97%90-mariadb-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Wed, 18 Apr 2018 04:11:22 +0900</pubDate>
+      <author>hadbsgk@gmail.com (PARK YUNHA)</author>
+      <guid>https://llighter.github.io/hugo_blog/2018/04/compute-engine%EC%97%90-mariadb-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/</guid>
+      <description>Compute Engine 인스턴스 생성하기 아래와 같이 Compute Engine 인스턴스를 생성한다. OS 이미지는 CentOS를 선택했다.   MariaDB 설치하기 1) MariaDB 설치하기 sudo yum -y install mariadb-server  2) MariaDB 서버 시작하기 sudo service mariadb start  systemctl 명령어를 통해 서비스가 정상적으로 동작하는지 확인합니다.   3) 안전하게 MariaDB 설치하기 mysql_secure_installation 명령을 통해 비밀번호 설정, 원격접속 여부 등을 설정합니다.
+sudo mysql_secure_installation  4) MariaDB 접속하기 $ mysql -u root -p Enter password: Welcome to the MariaDB monitor.</description>
+    </item>
     
     <item>
       <title>리뷰: 9가지 사례로 익히는 고급 스파크 분석</title>
