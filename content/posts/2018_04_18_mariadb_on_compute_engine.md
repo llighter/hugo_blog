@@ -1,8 +1,10 @@
 ---
 title: "Compute engine에 MariaDB 설치하기"
 date: 2018-04-18T04:11:22+09:00
-draft: true
+draft: false
 ---
+
+{{< youtube PWdHMwIUkBs >}}
 
 # Compute Engine 인스턴스 생성하기
 
