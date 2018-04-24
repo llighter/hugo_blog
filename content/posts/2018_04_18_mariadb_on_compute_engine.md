@@ -4,7 +4,7 @@ date: 2018-04-18T04:11:22+09:00
 draft: false
 ---
 
-{{< youtube PWdHMwIUkBs >}}
+{{< youtube gabede7S-Mo >}}
 
 # Compute Engine 인스턴스 생성하기
 
