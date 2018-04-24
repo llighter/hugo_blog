@@ -9,10 +9,22 @@
     <managingEditor>hadbsgk@gmail.com (PARK YUNHA)</managingEditor>
     <webMaster>hadbsgk@gmail.com (PARK YUNHA)</webMaster>
     <copyright>(c) 2017 - 2018</copyright>
-    <lastBuildDate>Wed, 18 Apr 2018 04:11:22 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 24 Apr 2018 20:59:51 +0900</lastBuildDate>
     
 	<atom:link href="https://llighter.github.io/hugo_blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CentOS7 에 Python 3.6.x 설치하기</title>
+      <link>https://llighter.github.io/hugo_blog/2018/04/centos7-%EC%97%90-python-3.6.x-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Tue, 24 Apr 2018 20:59:51 +0900</pubDate>
+      <author>hadbsgk@gmail.com (PARK YUNHA)</author>
+      <guid>https://llighter.github.io/hugo_blog/2018/04/centos7-%EC%97%90-python-3.6.x-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/</guid>
+      <description>이 글은 Jani Karhunen이 쓴 How-to install Python 3.6.1 on CentOS 7 포스트를 발쵀 및 번역한 글입니다.
+ CentOS 7에는 Python 2.7이 기본적으로 제공된다. 물론 Python 2.7으로도 많을 것을 할 수 있지만 Python 3이 제공하는 다양한 기능을 사용하고 싶은 경우에는 설치를 해야한다.
+준비사항  구동가능한 CentOS 7 서버 Sudo 권한을 가진 계정   이 글에서는 Google Cloud Platform의 Compute Engine을 사용해서 서버를 구성할 것이다.
+ 필수 유틸리티 설치 리눅스 환경에서 작업을 하다보면 압축을 풀거나 파일을 다운받는 등 기본적인 기능을 사용하기 위한 유틸리티가 필요하다.</description>
+    </item>
     
     <item>
       <title>Compute engine에 MariaDB 설치하기</title>
