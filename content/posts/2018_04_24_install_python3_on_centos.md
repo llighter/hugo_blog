@@ -6,7 +6,7 @@ draft: false
 
 {{< youtube kjGBe55Js78 >}}
 
-> 이 글은 **Jani Karhunen**이 쓴 [How-to install Python 3.6.1 on CentOS 7][1] 포스트를 발쵀 및 번역한 글입니다.
+> 이 글은 **Jani Karhunen**이 쓴 [How-to install Python 3.6.1 on CentOS 7][1] 포스트를 발췌 및 번역한 글입니다.
 
 CentOS 7에는 Python 2.7이 기본적으로 제공된다. 물론 Python 2.7으로도 많을 것을 할 수 있지만 Python 3이 제공하는 다양한 기능을 사용하고 싶은 경우에는 설치를 해야한다.
 
