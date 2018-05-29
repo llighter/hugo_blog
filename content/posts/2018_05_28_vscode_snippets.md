@@ -1,41 +1,71 @@
 ---
 title: "VS Code Snippet(코드조각) 만들기"
 date: 2018-05-28T14:58:59+09:00
-draft: true
+draft: false
 ---
 
-<!-- {{< youtube gabede7S-Mo >}} -->
+{{< youtube zEks4QvLRjs >}}
 
 # VS Code Snippet(코드조각) 만들기
 
 코딩을 하다보면 파일을 생성시 기본적으로 들어가는 내용들이 있다.
 가령 주석이나 템플릿코드들은 형식이 정해져있지만 필요할 때마다 작성해야하는 불편함이 있다.
-이렇게 형식이 정해진 코드 조각들을 따로 지정해 놓은 후 필요할 떄마다 사용하는 방법이 **사용자 코드 조각**이다.
+이렇게 형식이 정해진 코드 조각들을 필요할 때마다 불러서 사용하는 방법이 **사용자 코드 조각**이다.
 이 글에서는 어떻게 사용자 코드 조각을 생성하고 작성한 후 사용하지에 대해 알아보겠다.
 
 > 영어가 불편하지 않다면 [Creating your own snippets][1] 글을 참조하면 보다 자세하고 정확한 정보를 확인할 수 있다.
 
-## 코드 조각 생성
+## 1. 코드 조각 생성
 
 맥북 기준
 Code > 기본설정 > 사용자 코드 조각
 새로 생성
 
-## 각 멤버 설명
+## 2. 각 멤버 설명
 
-scope
+### 2.1 scope
 
-prefix
+이 코드 조각을 호출 할 수 있는 확장자를 가지는 언어들을 넣어줍니다.
 
-body
+> ex. javascript, typescript, html
 
-description
+### 2.2 prefix
 
-## 코드 조각 사용
+코드 조각을 **호출** 할 때 사용되며 인텔리센싱 키를 활용하거나 타자 입력시 자동으로 추천하게 됩니다. 해당 **prefix**를 선택하면 코드 조각 **본문(body)**이 삽입됩니다.
 
-scope에 해당하는 파일인 경우 prefix에 정의해둔 내용에 따라 내용을 입력하면 인텔리센싱으로 추천이 뜬다 선택하면 기본 폼이 출력된다.
-출력된 내용에서는 미리 정의해둔 내용에 따라 순서대로 작성할 수 있다. 하나의 변수를 작성했으면 탭을 통해 이동한다. 최종 탭인 `$0`에 멈추면 코드 조각이 완성된 것이다.
+### 2.3 body
+
+자신이 만들고 싶은 코드 조각을 입력합니다. 여기에는 `$1`, `$2`, ... `$0` 과 같이 변수를 둬서 코드 조각을 생성할 때마다 동적으로 변수의 내용을 입력할 수 있습니다. 각 변수의 내용을 입력한 후에는 `Tab`을 통해 다음 변수로 이동합니다.
+
+> 변수는 `$1`부터 시작하고 **마지막 탭 위치**를 지정하고 싶은 경우 `$0`을 사용합니다.
+
+### 2.4 description
+
+마지막으로 **description**은 이 코드 조각에 대한 설명으로 코드 조각을 사용하기 위해 인텔리센싱 하거나 타자 입력시 나타나는 prefix와 더불어 표시됩니다.
+
+## 코드 조각 사용 예제
+
+{{< highlight json >}}
+{
+    "Generate default HTML form": {
+		"scope": "html",
+		"prefix": "generate-html-form",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html>",
+			"<head>",
+			"<title>${1:title name}</title>",
+			"</head>",
+			"<body>",
+				"<h2>Let me introduce myself</h2>",
+				"<h3>My name is ${2:name}.</h3>",
+				"<h3>I live in ${3:location}.</h3>",
+				"$0",
+			"</body>"
+		],
+		"description": "Generate default html form"
+	}
+}
+{{< /highlight >}}
 
 [1]: https://code.visualstudio.com/docs/editor/userdefinedsnippets
-[2]: 
-[3]: 
