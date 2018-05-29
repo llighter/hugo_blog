@@ -9,10 +9,21 @@
     <managingEditor>hadbsgk@gmail.com (PARK YUNHA)</managingEditor>
     <webMaster>hadbsgk@gmail.com (PARK YUNHA)</webMaster>
     <copyright>(c) 2017 - 2018</copyright>
-    <lastBuildDate>Tue, 24 Apr 2018 20:59:51 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 28 May 2018 14:58:59 +0900</lastBuildDate>
     
 	<atom:link href="https://llighter.github.io/hugo_blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VS Code Snippet(코드조각) 만들기</title>
+      <link>https://llighter.github.io/hugo_blog/2018/05/vs-code-snippet%EC%BD%94%EB%93%9C%EC%A1%B0%EA%B0%81-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
+      <pubDate>Mon, 28 May 2018 14:58:59 +0900</pubDate>
+      <author>hadbsgk@gmail.com (PARK YUNHA)</author>
+      <guid>https://llighter.github.io/hugo_blog/2018/05/vs-code-snippet%EC%BD%94%EB%93%9C%EC%A1%B0%EA%B0%81-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
+      <description>VS Code Snippet(코드조각) 만들기 코딩을 하다보면 파일을 생성시 기본적으로 들어가는 내용들이 있다. 가령 주석이나 템플릿코드들은 형식이 정해져있지만 필요할 때마다 작성해야하는 불편함이 있다. 이렇게 형식이 정해진 코드 조각들을 필요할 때마다 불러서 사용하는 방법이 사용자 코드 조각이다. 이 글에서는 어떻게 사용자 코드 조각을 생성하고 작성한 후 사용하지에 대해 알아보겠다.
+ 영어가 불편하지 않다면 Creating your own snippets 글을 참조하면 보다 자세하고 정확한 정보를 확인할 수 있다.
+ 1. 코드 조각 생성 맥북 기준 Code &amp;gt; 기본설정 &amp;gt; 사용자 코드 조각 새로 생성</description>
+    </item>
     
     <item>
       <title>CentOS7 에 Python 3.6.x 설치하기</title>
